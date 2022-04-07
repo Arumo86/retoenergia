@@ -1,9 +1,10 @@
 baseURL: 'https://retoenergia.netlify.app'
-title: Somrat | Hugo Portfolio Template
+title: Reto Energia 
 theme: somrat
 paginate: '6'
 summaryLength: '10'
 disableLanguages: []
+defaultContentLanguage: 'es'
 googleAnalytics: ''
 disqusShortname: ''
 outputs:
@@ -14,7 +15,7 @@ markup:
       unsafe: yes
 params:
   author: somrat
-  description: This is meta description
+  description: Ahorra en tu factura de la luz con Reto Energía
   favicon: images/favicon.png
   logo_dark: images/logo-dark.png
   logo_light: images/logo.png
@@ -41,82 +42,82 @@ params:
   preloader:
     enable: yes
     preloader: images/preloader.gif
-  social:
-    - icon: fab fa-facebook-f
-      link: https://www.facebook.com/somratpro
-    - icon: fab fa-twitter
-      link: https://twitter.com/somratpro
-    - icon: fab fa-instagram
-      link: https://www.instagram.com/somratpro
-    - icon: fab fa-github
-      link: https://github.com/somratpro
-    - icon: fab fa-linkedin
-      link: https://www.linkedin.com/in/somratpro
+  # social:
+  #   - icon: fab fa-facebook-f
+  #     link: https://www.facebook.com/somratpro
+  #   - icon: fab fa-twitter
+  #     link: https://twitter.com/somratpro
+  #   - icon: fab fa-instagram
+  #     link: https://www.instagram.com/somratpro
+  #   - icon: fab fa-github
+  #     link: https://github.com/somratpro
+  #   - icon: fab fa-linkedin
+  #     link: https://www.linkedin.com/in/somratpro
 Languages:
-  en:
-    contentDir: content/english
+  # en:
+  #   contentDir: content/english
+  #   copyright: Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)
+  #   home: Home
+  #   languageCode: en-us
+  #   languageName: En
+  #   menu:
+  #     main:
+  #       - name: Home
+  #         url: /
+  #         weight: 1
+  #       - name: About me
+  #         pre: '#'
+  #         url: about
+  #         weight: 2
+  #       - name: Service
+  #         pre: '#'
+  #         url: service
+  #         weight: 3
+  #       - name: Portfolio
+  #         pre: '#'
+  #         url: portfolio
+  #         weight: 4
+  #       - name: Testimonial
+  #         pre: '#'
+  #         url: testimonial
+  #         weight: 5
+  #       - name: Contact
+  #         pre: '#'
+  #         url: contact
+  #         weight: 6
+  #       - name: Blog
+  #         url: blog
+  #         weight: 7
+  #   weight: 2
+  es:
+    contentDir: content/spanish
     copyright: Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)
-    home: Home
-    languageCode: en-us
-    languageName: En
+    home: Inicio
+    languageCode: es-es
+    languageName: Español
     menu:
       main:
-        - name: Home
+        - name: Inicio
           url: /
           weight: 1
-        - name: About me
+        - name: Qué es
           pre: '#'
           url: about
           weight: 2
-        - name: Service
+        - name: Qué analizamos
           pre: '#'
           url: service
           weight: 3
-        - name: Portfolio
-          pre: '#'
-          url: portfolio
-          weight: 4
-        - name: Testimonial
+        #- name: Portfolio
+        #  pre: '#'
+        #  url: portfolio
+        #  weight: 4
+        - name: Testimonios
           pre: '#'
           url: testimonial
-          weight: 5
-        - name: Contact
-          pre: '#'
-          url: contact
-          weight: 6
-        - name: Blog
-          url: blog
-          weight: 7
+          weight: 4
+        # - name: Contacto
+        #   pre: '#'
+        #   url: contact
+        #   weight: 5
     weight: 1
-  fr:
-    contentDir: content/french
-    copyright: Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)
-    home: Accueil
-    languageCode: fr-fr
-    languageName: Fr
-    menu:
-      main:
-        - name: Home
-          url: /
-          weight: 1
-        - name: About me
-          pre: '#'
-          url: about
-          weight: 2
-        - name: Service
-          pre: '#'
-          url: service
-          weight: 3
-        - name: Portfolio
-          pre: '#'
-          url: portfolio
-          weight: 4
-        - name: Testimonial
-          pre: '#'
-          url: testimonial
-          weight: 5
-        - name: Contact
-          pre: '#'
-          url: contact
-          weight: 6
-    weight: 2

@@ -88,7 +88,7 @@ Languages:
   #       - name: Blog
   #         url: blog
   #         weight: 7
-  #   weight: 2
+  #   weight: 3
   es:
     contentDir: content/spanish
     copyright: Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)
